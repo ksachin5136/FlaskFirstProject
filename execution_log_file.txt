@@ -1,0 +1,26 @@
+INFO:root:APP_START_TIME=07_30_2023_17_24_27
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:root:#### You Requested Code to Execute Method:'GET', Received-URL:'/', function-to-run:home() ####
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:24:54] "GET / HTTP/1.1" 200 -
+INFO:root:#### You Requested Code to Execute Method:'GET', Received-URL:'/welcome', function-to-run:welcome() ####
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:24:58] "GET /welcome HTTP/1.1" 200 -
+INFO:root:#### You Requested Code to Execute Method:'GET', Received-URL:'/useredirect', function-to-run:useredirect() ####
+INFO:root:you are being Re-directed to success 
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:25:14] "[32mGET /useredirect HTTP/1.1[0m" 302 -
+INFO:root:## You Requested Code to Execute Method:'GET', Received-URL:'/success', function-to-run:success() ##
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:25:14] "GET /success/75 HTTP/1.1" 200 -
+INFO:root:## You Requested Code to Execute Method:'GET', Received-URL:'/index', function-to-run:index() ##
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:25:23] "GET /index HTTP/1.1" 200 -
+INFO:root:## You Requested Code to Execute Method:'GET', Received-URL:'/success', function-to-run:success() ##
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:25:34] "GET /success/88 HTTP/1.1" 200 -
+INFO:root:## You Requested Code to Execute Method:'GET', Received-URL:'/fail', function-to-run:fail() ##
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:25:42] "GET /fail/25 HTTP/1.1" 200 -
+INFO:root:## You Requested Code to Execute Method:'GET', Received-URL:'/useofrawstring', function-to-run:useofrawstring() ##
+INFO:root:The Location of Project is -D:\Mytech\IDE_workspace\ksachin5136git\Flaskpractice\flaskineuron\app.py
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:26:01] "GET /useofrawstring HTTP/1.1" 200 -
+INFO:root:## You Requested Code to Execute Method:'GET', Received-URL:'/calculate', function-to-run:calculate() ##
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:26:13] "GET /calculate HTTP/1.1" 200 -
+INFO:root:## You Requested Code to Execute Method:'POST', Received-input-from-user, function-to-run:calculate() ##
+INFO:werkzeug:127.0.0.1 - - [30/Jul/2023 17:26:23] "POST /calculate HTTP/1.1" 200 -
